@@ -17,11 +17,16 @@ public class AnimalPicker {
                                         "(\\,--------'()'--o\r\n" + //
                                         " (_    ___    /~\"\r\n" + //
                                         "  (_)_)  (_)_)");
+            } else if (word.equalsIgnoreCase("fish")) {
+                System.out.println("          /\"*._         _\r\n" + //
+                                        "      .-*'`    `*-.._.-'/\r\n" + //
+                                        "    < * ))     ,       ( \r\n" + //
+                                        "      `*-._`._(__.--*\"`.\\");
             } else {
                 // error message
                 System.out.print("Invalid animal. ");
             }
-        } while (!word.equalsIgnoreCase("cat") && !word.equalsIgnoreCase("dog"));
+        } while (!word.equalsIgnoreCase("cat") && !word.equalsIgnoreCase("dog") && !word.equalsIgnoreCase("fish"));
         keyboard.close();
     }
 }
