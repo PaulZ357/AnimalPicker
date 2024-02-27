@@ -9,7 +9,9 @@ public class AnimalPicker {
             System.out.println("CAT");
         } else if (word.equalsIgnoreCase("dog")) {
             System.out.println("DOG");
-        } 
+        } else {
+            System.out.println("invalid option");
+        }
         keyboard.close();
     }
 }
