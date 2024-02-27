@@ -8,9 +8,15 @@ public class AnimalPicker {
         do {
             word = keyboard.nextLine();
             if (word.equalsIgnoreCase("cat")) {
-                System.out.println("CAT");
+                System.out.println(" _._     _,-'\"\"`-._\r\n" + //
+                                        "(,-.`._,'(       |\\`-/|\r\n" + //
+                                        "    `-.-' \\ )-`( , o o)\r\n" + //
+                                        "          `-    \\`_`\"'-");
             } else if (word.equalsIgnoreCase("dog")) {
-                System.out.println("DOG");
+                System.out.println("            __\r\n" + //
+                                        "(\\,--------'()'--o\r\n" + //
+                                        " (_    ___    /~\"\r\n" + //
+                                        "  (_)_)  (_)_)");
             } else {
                 // error message
                 System.out.print("Invalid animal. ");
